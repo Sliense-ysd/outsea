@@ -1,0 +1,198 @@
+.contact {
+  padding: 100px 0;
+  background-color: #0a192f;
+  position: relative;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  font-size: 48px;
+  color: #ccd6f6;
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.blink {
+  color: #64ffda;
+  animation: blink 1s infinite;
+  margin-left: 5px;
+}
+
+.contact-subtitle {
+  font-size: 18px;
+  color: #8892b0;
+  font-weight: 400;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.contact-card {
+  background-color: rgba(2, 12, 27, 0.7);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info p {
+  color: #a8b2d1;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.method {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.method-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(100, 255, 218, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64ffda;
+}
+
+.method-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.method-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.method-label {
+  font-size: 14px;
+  color: #8892b0;
+  margin-bottom: 3px;
+}
+
+.method-link {
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  color: #ccd6f6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.method-link:hover {
+  color: #64ffda;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #ccd6f6;
+  margin-bottom: 8px;
+  font-family: 'Fira Code', monospace;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: rgba(10, 25, 47, 0.7);
+  border: 1px solid rgba(100, 255, 218, 0.3);
+  border-radius: 4px;
+  color: #ccd6f6;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #64ffda;
+  box-shadow: 0 0 8px rgba(100, 255, 218, 0.3);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #8892b0;
+}
+
+.form-submit {
+  padding: 12px 20px;
+  background-color: transparent;
+  color: #64ffda;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Fira Code', monospace;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.form-submit:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(100, 255, 218, 0.15);
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+  
+  .contact-card {
+    padding: 25px;
+  }
+  
+  .contact-title {
+    font-size: 36px;
+  }
+} 
