@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // 更新网页标题
-    document.title = "丞东 | 全栈开发工程师";
+    document.title = "杨圣东 | 全栈开发工程师";
     
     // 滚动动画效果
     const handleScroll = () => {
