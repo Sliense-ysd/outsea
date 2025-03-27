@@ -4,7 +4,7 @@ import './Hero.css';
 const Hero: React.FC = () => {
   const [typedText, setTypedText] = useState('');
   const [currentPhrase, setCurrentPhrase] = useState(0);
-  const phrases = ['全栈开发工程师', '独立开发者', '中东市场专家'];
+  const phrases = ['全栈开发者', 'Indie Hacker', '聚焦小众海外市场'];
 
   useEffect(() => {
     let timer: NodeJS.Timeout;
@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
                 <p><span className="highlight"># 丞东</span></p>
                 <p>- 🚀 全栈开发者，专注React和React Native</p>
                 <p>- 🌐 擅长跨文化产品设计与本地化</p>
-                <p>- 🧠 AI集成与自然语言处理专家</p>
+                <p>- 🧠 AI Saas 应用</p>
                 <p>- 🛠️ 性能优化和技术架构设计</p>
               </div>
               <div className="line">
