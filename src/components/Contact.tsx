@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">
-            <span className="section-number">03.</span> 联系我
+            <span className="section-number">3.</span> 联系我
           </h2>
           <div className="section-line"></div>
         </div>
@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
               <div className="contact-info">
                 <p>
                   如果您对我的工作感兴趣，或者想讨论潜在的合作机会，
-                  欢迎随时与我联系。我特别擅长跨文化产品开发和面向中东市场的解决方案。
+                  欢迎随时与我联系。我擅长AI出海产品开发解决方案。
                 </p>
                 
                 <div className="contact-methods">
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="method-text">
                       <span className="method-label">邮箱</span>
-                      <a href="mailto:contact@example.com" className="method-link">contact@example.com</a>
+                      <a href="mailto:mryangsd@gmail.com" className="method-link">mryangsd@gmail.com</a>
                     </div>
                   </div>
                   
@@ -58,8 +58,8 @@ const Contact: React.FC = () => {
                       </svg>
                     </div>
                     <div className="method-text">
-                      <span className="method-label">LinkedIn</span>
-                      <a href="#" target="_blank" rel="noopener noreferrer" className="method-link">linkedin.com/in/yangshengdong</a>
+                      <span className="method-label">微信</span>
+                      <a href="#" target="_blank" rel="noopener noreferrer" className="method-link">chengdong965</a>
                     </div>
                   </div>
                 </div>
