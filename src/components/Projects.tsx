@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">
-            <span className="section-number">01.</span> 项目经验
+            <span className="section-number">1.</span> 项目经验
           </h2>
           <div className="section-line"></div>
         </div>
@@ -17,11 +17,11 @@ const Projects: React.FC = () => {
             <div className="project-label">特色项目</div>
             <h3 className="project-title">智能斋月任务管家"RamadanProductive"</h3>
             <div className="project-meta">
-              <span className="project-duration">2024.01-2024.06 (6个月)</span>
-              <span className="project-team">团队规模：4人（本人主导全栈开发）</span>
+              <span className="project-duration">2025.01-2025.03 (3个月)</span>
+              <span className="project-team">团队规模：2人（本人主导全栈开发）</span>
             </div>
             <div className="project-description">
-              <p>针对中东市场设计的宗教文化融合型效率工具，解决传统TodoList在斋月期间作息调整、祈祷时间同步等场景的适配问题，上线首月获得沙特App Store效率榜Top 20。</p>
+              <p>针对中东市场设计的宗教文化融合型效率工具，解决传统TodoList在斋月期间作息调整、祈祷时间同步等场景的适配问题，</p>
             </div>
             
             <div className="project-highlights">
@@ -44,11 +44,11 @@ const Projects: React.FC = () => {
               </div>
               
               <div className="highlight-category">
-                <h4>AI+社区架构</h4>
+                <h4>AI+社区架构(进行中)</h4>
                 <ul>
                   <li>
                     <span className="highlight-title">智能任务生成：</span>
-                    <span className="highlight-desc">基于Transformer的NLP模型（本地化训练含50万条阿拉伯语语料）；场景化建议：如"距离昏礼还有1小时，推荐完成3项工作"</span>
+                    <span className="highlight-desc">未来将会基于Transformer的NLP模型（本地化训练含50万条阿拉伯语语料）；场景化建议：如"距离昏礼还有1小时，推荐完成3项工作"</span>
                   </li>
                   <li>
                     <span className="highlight-title">社区模块：</span>
@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
               </div>
               
               <div className="highlight-category">
-                <h4>性能优化</h4>
+                <h4>性能优化(进行中)</h4>
                 <ul>
                   <li>
                     <span className="highlight-title">阿拉伯语字体加载速度优化：</span>
@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
                 <ul>
                   <li>
                     <span className="highlight-title">需求验证：</span>
-                    <span className="highlight-desc">与当地宗教顾问合作完成10场用户访谈，建立合规性检查清单</span>
+                    <span className="highlight-desc">与 Reddit 社区用户合作完成10场用户访谈，建立合规性检查清单</span>
                   </li>
                   <li>
                     <span className="highlight-title">敏捷迭代：</span>
@@ -92,12 +92,12 @@ const Projects: React.FC = () => {
                   </li>
                   <li>
                     <span className="highlight-title">交付管理：</span>
-                    <span className="highlight-desc">分阶段上线：优先吉达、麦地那等城市试运行，避开朝觐高峰时段；合规审计：通过沙特CITC（通信委员会）宗教内容认证</span>
+                    <span className="highlight-desc">分阶段上线：优先吉达、麦地那等城市试运行，避开朝觐高峰时段；支付接入 Stripe</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="highlight-category">
+              {/* <div className="highlight-category">
                 <h4>项目成果</h4>
                 <ul>
                   <li>实现<span className="highlight-stats">87%</span>的次日留存率（行业平均42%），MAU突破15万</li>
@@ -105,7 +105,7 @@ const Projects: React.FC = () => {
                   <li>获选沙特2030愿景数字经济示范项目，被海湾新闻等6家媒体报道</li>
                   <li>技术输出：撰写《阿拉伯语NLP在移动端的工程实践》白皮书，抽象RTL组件库复用于3个后续项目</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             
             <div className="project-links">
@@ -117,7 +117,7 @@ const Projects: React.FC = () => {
                 <span>Three.js</span>
               </div>
               <div className="project-buttons">
-                <a href="https://github.com/Sliense-ysd/outsea" className="project-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Sliense-ysd/portfolio-website" className="project-link" target="_blank" rel="noopener noreferrer">
                   <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                 </a>
                 <a href="#" className="project-link" target="_blank" rel="noopener noreferrer">
